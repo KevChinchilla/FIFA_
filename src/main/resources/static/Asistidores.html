@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Asistidores de Fútbol</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">FIFA MEJORES ASISTIDORES</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PORTEROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">GOLEADORES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ASISTIDORES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ENTRENADORES</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenedor principal -->
+    <div class="container mt-4">
+        <h1 class="mb-4">LOS MEJORES ASISTIDORES DEL MUNDO</h1>
+
+        <!-- Alerta -->
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+            <i class="bi bi-info-circle-fill me-2"></i> ¡GRANDES JUGADORES!
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+
+        <!-- Grid system para asistidores -->
+        <div class="row row-cols-1 row-cols-md-2 g-4 mb-4">
+            <!-- Tarjeta de asistidor 1 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imagenes/MESSI.jpg" class="card-img-top" alt="Lionel Messi">
+                    <div class="card-body">
+                        <h5 class="card-title">Lionel Messi</h5>
+                        <p class="card-text">Considerado uno de los mejores asistidores de la historia del fútbol.</p>
+                        <a href="messi.html" class="btn btn-primary" target="_blank">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Tarjeta de asistidor 2 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imagenes/kevin.jpg" class="card-img-top" alt="Kevin De Bruyne">
+                    <div class="card-body">
+                        <h5 class="card-title">Kevin De Bruyne</h5>
+                        <p class="card-text">El motor del Manchester City y uno de los mejores pasadores del mundo.</p>
+                        <a href="debruyne.html" class="btn btn-primary" target="_blank">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Tarjeta de asistidor 3 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imagenes/BUSI.jpg" class="card-img-top" alt="Sergio Busquets">
+                    <div class="card-body">
+                        <h5 class="card-title">Cristiano Ronaldo</h5>
+                        <p class="card-text">Su capacidad para asistir también es sobresaliente asi como la de salida del balón.</p>
+                        <a href="cristiano.html" class="btn btn-primary" target="_blank">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Tarjeta de asistidor 4 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imagenes/INIESTA.jpg" class="card-img-top" alt="Andrés Iniesta">
+                    <div class="card-body">
+                        <h5 class="card-title">Andrés Iniesta</h5>
+                        <p class="card-text">El genio español que destacó por su visión de juego y asistencias decisivas.</p>
+                        <a href="iniesta.html" class="btn btn-primary" target="_blank">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formulario de búsqueda abajo -->
+        <div class="row mt-5">
+            <div class="col-md-8 offset-md-2">
+                <h2 class="mb-4">¿Cual es tu asistidor favorito?</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">¿En cual equipo jugaba?</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ude5waAzZWs?si=DVIBVOnsXsVwVEZS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
